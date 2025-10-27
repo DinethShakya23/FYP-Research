@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b1801ded22880b0f",
+        "id": "5d2f5fdeacf7ec71",
         "type": "tabs",
         "children": [
           {
-            "id": "71c3cf02a5299cf1",
+            "id": "9e50592d4c2deca3",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -162,21 +162,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "71c3cf02a5299cf1",
+  "active": "9e50592d4c2deca3",
   "lastOpenFiles": [
-    "5_report_draft/0_introduction.md",
     "Templates/Paper Template.md",
+    "1_literature_review/papers/castilloFLEDGELedgerbasedFederated2023.md",
+    "1_literature_review/papers/nguyenBackdoorAttacksDefenses2023.md",
+    "paper_1.md",
+    "1_literature_review/concepts/Robust Aggregation.md",
+    "1_literature_review/concepts/backdoor.md",
+    "1_literature_review/concepts/Poisoning.md",
+    "1_literature_review/concepts/DP.md",
+    "1_literature_review/concepts/IDS.md",
+    "1_literature_review/concepts/Federated Learning.md",
+    "Untitled.md",
+    "1_literature_review/literature_summary.md",
+    "2_report_draft/0_introduction.md",
     "Differential Privacy.md",
     "Templates",
     "7_appendix",
     "6_references",
-    "5_report_draft",
+    "2_report_draft",
     "4_implementation",
     "3_experiments",
     "2_design",
     "1_literature_review/papers",
     "1_literature_review/concepts",
-    "1_literature_review/literature_summary.md",
     "1_literature_review",
     "Welcome.md"
   ]

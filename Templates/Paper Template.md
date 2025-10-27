@@ -1,15 +1,11 @@
 ---
 title: "{{title}}"
 authors: "{{authors}}"
-year:
-  "{ year }":
-tags:
-source: "{{link}}"
-related:
-  - - - Federated Learning
-  - - - Backdoor Attacks
-  - - - Differential Privacy
+year: {% if date %}"{{date | format("YYYY")}}"{% endif %}
+tags: [{% if allTags %}{{allTags}}{% endif %}]
+source: {% if DOI %}https://doi.org/{{DOI}}{% endif %}
 ---
+**Read:** [Open in Zotero](zotero://select/items/{{libraryID | default(0)}}_{{key}})
 
 # 🧠 Summary
 > Write your 3–5 line summary of the paper here in your own words.  
@@ -52,17 +48,17 @@ related:
   - 
 - Weaknesses:  
   - 
-- Could combine with: [[concept_1]]  
-- Might help in: [[concept_2]]
+- Could combine with: 
+- Might help in: 
 
 ---
 
 # 🧩 Related Works
 > How does this relate to other papers or concepts?
 
-- Builds on [[paper_1]]
-- Similar to [[paper_2]]
-- Contradicts [[paper_3]]
+- Builds on 
+- Similar to 
+- Contradicts 
 
 ---
 
@@ -81,4 +77,3 @@ I can use this aggregation method as the base for my framework, then add a DP no
 
 # 📚 Citation
 > (Li et al., 2022) – *Robust Aggregation for Federated Learning*
-
