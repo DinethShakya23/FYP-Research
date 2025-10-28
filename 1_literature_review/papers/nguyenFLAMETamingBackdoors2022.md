@@ -26,7 +26,7 @@ FLAME is a defense framework for [[Federated Learning]] that mitigates [[backdoo
 - Technique used:  
 	- Dynamic clustering ([[HDBSCAN]]) for **anomaly detection**
 	- [[adaptive weight clipping]], and [[adaptive Gaussian noise injection]] to **neutralize backdoors**.
-	- Secure Two-Party Computation for [[privacy preserving]]
+	- Secure Two-Party Computation([[STPC]]) for [[privacy preserving]]
 - Framework type:  
 - Dataset:  [[Reddit]] (word prediction), [[CIFAR-10]], [[MNIST]], [[Tiny-ImageNet]] (image classification), [[IoT-Traffic]]
 - Evaluation metrics:  
@@ -49,10 +49,13 @@ $$
 # 📊 Results
 > Capture the main results or comparison metrics.
 
-| Metric | Baseline | Proposed | Improvement |
-|---------|-----------|----------|--------------|
-| Accuracy | 88.2% | 91.5% | +3.3% |
-| Attack Success Rate | 12.4% | 2.7% | ↓ 9.7% |
+| Defense    | BA ↓        | MA ↓              | Notes                              |
+|------------|-------------|-------------------|------------------------------------|
+| FLAME      | ~0%         | Negligible        | Handles multiple attacks, non-IID data |
+| Krum       | High        | Moderate          | Fails under multiple backdoors     |
+| FoolsGold  | High        | Moderate          | Assumes IID data                   |
+| Auror      | Moderate    | Moderate          | Limited scalability                |
+| DP-based   | Low BA      | Severe MA drop    | Accuracy trade-off                 |
 
 ---
 
@@ -60,11 +63,21 @@ $$
 > Your personal understanding — why does this matter for your project?
 
 - Strengths:  
-  - 
+  - Works under [[non-IID]] data and multiple simultaneous attacks, which is realistic for network traffic.
+  - Minimal accuracy loss compared to DP-based defenses.
+  - Includes a privacy-preserving variant using [[STPC]]
 - Weaknesses:  
-  - 
-- Could combine with: 
+  - Assumes majority of clients are benign (>50%), which may not hold in adversarial networks.
+  - Private FLAME introduces high computational overhead, making it less practical for real-time anomaly detection.
+  
+- Could combine with:
+	- [[Federated Learning]] + [[DP]] for additional privacy guarantees.
+	- [[secure aggregation]] protocols to reduce inference risks without heavy [[STPC]] overhead.
+	- [[Anomaly scoring techniques]] for network-specific threat detection.
+	
 - Might help in: 
+	- Designing a [[robust aggregation]] mechanism for your federated anomaly detection model.
+	- 
 
 ---
 
@@ -85,8 +98,7 @@ $$
 # 🧠 My Thoughts
 > Reflect on how this influences your FYP.
 
-Example:  
-I can use this aggregation method as the base for my framework, then add a DP noise layer to enhance privacy. Test on CICIDS2017 dataset.
+
 
 ---
 
