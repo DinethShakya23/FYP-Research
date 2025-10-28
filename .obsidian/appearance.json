@@ -1,1 +1,8 @@
-{}
+{
+  "theme": "system",
+  "accentColor": "#00ffff",
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "graph-node-colors"
+  ]
+}

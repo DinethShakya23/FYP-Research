@@ -1,0 +1,25 @@
+/* For a full overview of styling options, see https://js.cytoscape.org/#style */
+
+/* Nodes tagged with #fl tag */
+/* .graph-view-node[data-tags*="#fl"] {
+  fill: #ff5733 !important;
+}
+
+.graph-view-node[data-tags*="#backdoor"] {
+  fill: #33ff57 !important;
+}
+
+.graph-view-node[data-tags*="#✅"] {
+  fill: #3357ff !important;
+}
+
+.graph-view-node[data-tags*="#⏳"] {
+  fill: #ebff33 !important;
+} */
+
+---
+juggl-color-tag:
+  fl: "#ff5733"
+  backdoor: "#33ff57"
+  research: "#3357ff"
+---

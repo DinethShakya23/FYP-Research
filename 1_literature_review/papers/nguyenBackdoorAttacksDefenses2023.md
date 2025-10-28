@@ -1,11 +1,13 @@
 ---
 title: "Backdoor Attacks and Defenses in Federated Learning: Survey, Challenges and Future Research Directions"
-authors: "Thuy Dung Nguyen, Tuan Nguyen, Phi Le Nguyen, Hieu H. Pham, Khoa Doan, Kok-Seng Wong"
+authors: Thuy Dung Nguyen, Tuan Nguyen, Phi Le Nguyen, Hieu H. Pham, Khoa Doan, Kok-Seng Wong
 year: "2023"
-tags: [backdoor]
+tags:
+  - ⏳
+  - backdoor
 source: https://doi.org/10.48550/arXiv.2303.02213
 ---
-**Read:** [Open in Zotero](zotero://select/items/2_R69RZVTN)
+**Read:** [Open in Zotero](zotero://select/items/2_DJ4II5NH)
 
 # 🧠 Summary
 > Write your 3–5 line summary of the paper here in your own words.  
@@ -77,4 +79,3 @@ I can use this aggregation method as the base for my framework, then add a DP no
 
 # 📚 Citation
 > (Li et al., 2022) – *Robust Aggregation for Federated Learning*
-

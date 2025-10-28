@@ -1,8 +1,9 @@
 ---
 title: "FLEDGE: Ledger-based Federated Learning Resilient to Inference and Backdoor Attacks"
-authors: "Jorge Castillo, Phillip Rieger, Hossein Fereidooni, Qian Chen, Ahmad Sadeghi"
+authors: Jorge Castillo, Phillip Rieger, Hossein Fereidooni, Qian Chen, Ahmad Sadeghi
 year: "2023"
-tags: [backdoor]
+tags:
+  - backdoor
 source: https://doi.org/10.48550/arXiv.2310.02113
 ---
 **Read:** [Open in Zotero](zotero://select/items/2_RYUT88WI)
