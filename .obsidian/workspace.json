@@ -221,8 +221,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "b40da0d66fae58dd",
+  "active": "80484a448d23adba",
   "lastOpenFiles": [
+    "z_Other stuff/tags.md",
+    "z_Other stuff",
+    "Untitled.canvas",
+    "2025-10-28.md",
+    "1_literature_review/papers/wangImprovedDistributedBackdoor2025.md",
     "1_literature_review/papers/nguyenFLAMETamingBackdoors2022.md",
     "1_literature_review/techniques/adaptive Gaussian noise injection.md",
     "1_literature_review/techniques/adaptive weight clipping.md",
@@ -257,8 +262,6 @@
     "4_implementation",
     "3_experiments",
     "2_design",
-    "1_literature_review/papers",
-    "1_literature_review/concepts",
-    "Welcome.md"
+    "1_literature_review/papers"
   ]
 }
