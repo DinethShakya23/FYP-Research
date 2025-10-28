@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "5d2f5fdeacf7ec71",
+        "id": "89d498d88464646e",
         "type": "tabs",
         "children": [
           {
-            "id": "9e50592d4c2deca3",
+            "id": "b60084beee49e55c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_literature_review/papers/nguyenBackdoorAttacksDefenses2023.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "nguyenBackdoorAttacksDefenses2023"
+            }
+          },
+          {
+            "id": "80484a448d23adba",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,8 +32,23 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "f527df77430aed3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_literature_review/concepts/backdoor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "backdoor"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,14 +193,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "9e50592d4c2deca3",
+  "active": "f527df77430aed3b",
   "lastOpenFiles": [
-    "Templates/Paper Template.md",
-    "1_literature_review/papers/castilloFLEDGELedgerbasedFederated2023.md",
+    "Pasted image 20251028081505.png",
     "1_literature_review/papers/nguyenBackdoorAttacksDefenses2023.md",
+    "1_literature_review/concepts/backdoor.md",
+    "Pasted image 20251028081551.png",
+    "1_literature_review/concepts/Federated unlearning.md",
+    "Pasted image 20251028081039.png",
+    "1_literature_review/concepts/secure aggregation.md",
+    "1_literature_review/concepts/model pruning.md",
+    "1_literature_review/papers/castilloFLEDGELedgerbasedFederated2023.md",
+    "1_literature_review/papers/moPPFLPrivacypreservingFederated2021.md",
+    "Templates/Paper Template.md",
     "paper_1.md",
     "1_literature_review/concepts/Robust Aggregation.md",
-    "1_literature_review/concepts/backdoor.md",
     "1_literature_review/concepts/Poisoning.md",
     "1_literature_review/concepts/DP.md",
     "1_literature_review/concepts/IDS.md",

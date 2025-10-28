@@ -1,11 +1,12 @@
 ---
 title: "FLEDGE: Ledger-based Federated Learning Resilient to Inference and Backdoor Attacks"
-authors: "Jorge Castillo, Phillip Rieger, Hossein Fereidooni, Qian Chen, Ahmad Sadeghi"
+authors: Jorge Castillo, Phillip Rieger, Hossein Fereidooni, Qian Chen, Ahmad Sadeghi
 year: "2023"
-tags: [backdoor]
+tags:
+  - backdoor
 source: https://doi.org/10.48550/arXiv.2310.02113
 ---
-**Read:** [Open in Zotero](zotero://select/items/2_RYUT88WI)
+**Read:** [Open in Zotero](zotero://select/items/2_REJ4AEQI)
 
 # 🧠 Summary
 > Write your 3–5 line summary of the paper here in your own words.  
@@ -56,7 +57,7 @@ source: https://doi.org/10.48550/arXiv.2310.02113
 # 🧩 Related Works
 > How does this relate to other papers or concepts?
 
-- Builds on [[backdoor]]
+- Builds on 
 - Similar to 
 - Contradicts 
 
@@ -77,4 +78,3 @@ I can use this aggregation method as the base for my framework, then add a DP no
 
 # 📚 Citation
 > (Li et al., 2022) – *Robust Aggregation for Federated Learning*
-
