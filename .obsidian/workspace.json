@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "6ba92dd6499c87d2",
+        "id": "89d498d88464646e",
         "type": "tabs",
         "children": [
           {
-            "id": "013e4fea209cd8ee",
+            "id": "b60084beee49e55c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_literature_review/papers/nguyenBackdoorAttacksDefenses2023.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "nguyenBackdoorAttacksDefenses2023"
+            }
+          },
+          {
+            "id": "80484a448d23adba",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,8 +32,23 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "f527df77430aed3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_literature_review/concepts/backdoor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "backdoor"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,19 +214,21 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "013e4fea209cd8ee",
+  "active": "f527df77430aed3b",
   "lastOpenFiles": [
-    "1_literature_review/papers/wangImprovedDistributedBackdoor2025.md",
+    "Pasted image 20251028081505.png",
     "1_literature_review/papers/nguyenBackdoorAttacksDefenses2023.md",
-    "2025-10-28.md",
-    "Untitled.canvas",
-    "1_literature_review/papers/castilloFLEDGELedgerbasedFederated2023.md",
     "1_literature_review/concepts/backdoor.md",
-    "1_literature_review/papers/Improved Distributed Backdoor Attacks in Federated Learning by Density-Adaptive Data Poisoning and Projection-Based Gradient Updating.md",
-    "1_literature_review/literature_summary.md",
-    "z_Other stuff/tags.md",
-    "z_Other stuff",
-    "1_literature_review/z_Other stuff",
+    "Pasted image 20251028081551.png",
+    "1_literature_review/concepts/Federated unlearning.md",
+    "Pasted image 20251028081039.png",
+    "1_literature_review/concepts/secure aggregation.md",
+    "1_literature_review/concepts/model pruning.md",
+    "1_literature_review/papers/castilloFLEDGELedgerbasedFederated2023.md",
+    "1_literature_review/papers/moPPFLPrivacypreservingFederated2021.md",
+    "Templates/Paper Template.md",
+    "paper_1.md",
+    "1_literature_review/concepts/Robust Aggregation.md",
     "1_literature_review/concepts/Poisoning.md",
     "1_literature_review/concepts/IDS.md",
     "Templates/Paper Template.md",
