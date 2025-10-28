@@ -11,7 +11,7 @@ source:
 > Write your 3–5 line summary of the paper here in your own words.  
 > What problem does it solve? What’s the main idea?
 
-FLAME is a defense framework for federated learning that mitigates backdoor attacks without sacrificing model accuracy. It combines dynamic clustering to detect malicious updates, adaptive weight clipping to limit their impact, and minimal Gaussian noise to remove residual backdoors. FLAME also introduces a privacy-preserving variant using secure two-party computation. Experiments across NLP, vision, and IoT tasks show FLAME outperforms existing defenses with negligible accuracy loss.
+FLAME is a defense framework for [[Federated Learning]] that mitigates [[backdoor]] attacks without sacrificing model accuracy. It combines dynamic clustering to detect malicious updates, adaptive weight clipping to limit their impact, and minimal Gaussian noise to remove residual backdoors. FLAME also introduces a privacy-preserving variant using secure two-party computation. Experiments across NLP, vision, and IoT tasks show FLAME outperforms existing defenses with negligible accuracy loss.
 
 ---
 
@@ -28,9 +28,21 @@ FLAME is a defense framework for federated learning that mitigates backdoor atta
 	- [[adaptive weight clipping]], and [[adaptive Gaussian noise injection]] to **neutralize backdoors**.
 	- Secure Two-Party Computation for [[privacy preserving]]
 - Framework type:  
-- Dataset:  
+- Dataset:  [[Reddit]] (word prediction), [[CIFAR-10]], [[MNIST]], [[Tiny-ImageNet]] (image classification), [[IoT-Traffic]]
 - Evaluation metrics:  
+	- Main Task Accuracy ([[MTA]]) – performance on the primary task.
+	- Backdoor Accuracy (BA) – success rate of the backdoor attack. [[ASR]]
 - Key equations / pseudocode (if important):
+	- Noise bound estimation $$
+\sigma \ge 2 \log\left(\frac{1}{\delta}\right) \Delta
+$$
+	   For each round: 
+		   Collect client updates Cluster updates using HDBSCAN
+		    Filter outliers (potential backdoors) 
+		    Apply adaptive weight clipping 
+		    Add minimal Gaussian noise 
+		    Aggregate remaining updates
+
 
 ---
 
