@@ -1,0 +1,1 @@
+Iteratively remove nodes that increase graph density; compare median edge weights to classify adversaries.
