@@ -4,7 +4,24 @@
   "pdfExportImageDPI": 120,
   "pdfExportImageFormat": "jpg",
   "pdfExportImageQuality": 90,
-  "citeFormats": [],
+  "citeFormats": [
+    {
+      "name": "Format #4",
+      "format": "formatted-citation"
+    },
+    {
+      "name": "Format #3",
+      "format": "formatted-citation"
+    },
+    {
+      "name": "Format #2",
+      "format": "formatted-citation"
+    },
+    {
+      "name": "Format #1",
+      "format": "formatted-citation"
+    }
+  ],
   "exportFormats": [
     {
       "name": "Import #1",

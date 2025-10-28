@@ -105,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 274.5
   },
   "right": {
     "id": "1c3a3d9320c34c63",
@@ -174,6 +174,26 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "539653ddadc0ca84",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "ae9e905a8f802262",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
           }
         ]
       }
@@ -190,7 +210,8 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "juggl:Juggl global graph": false
     }
   },
   "active": "f527df77430aed3b",
@@ -209,23 +230,25 @@
     "paper_1.md",
     "1_literature_review/concepts/Robust Aggregation.md",
     "1_literature_review/concepts/Poisoning.md",
-    "1_literature_review/concepts/DP.md",
     "1_literature_review/concepts/IDS.md",
+    "Templates/Paper Template.md",
     "1_literature_review/concepts/Federated Learning.md",
-    "Untitled.md",
-    "1_literature_review/literature_summary.md",
+    "2025-10-27.md",
+    "Untitled.base",
+    "Untitled 3.base",
+    "Untitled 1.base",
+    "Untitled 2.base",
+    "1_literature_review/papers/Paper Template 1.md",
+    "1_literature_review/papers/Untitled.md",
+    "1_literature_review/concepts/DP.md",
     "2_report_draft/0_introduction.md",
+    "1_literature_review/concepts/Robust Aggregation.md",
+    "paper_1.md",
     "Differential Privacy.md",
     "Templates",
     "7_appendix",
     "6_references",
     "2_report_draft",
-    "4_implementation",
-    "3_experiments",
-    "2_design",
-    "1_literature_review/papers",
-    "1_literature_review/concepts",
-    "1_literature_review",
     "Welcome.md"
   ]
 }
