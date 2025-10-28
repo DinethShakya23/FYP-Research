@@ -39,16 +39,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_literature_review/concepts/backdoor.md",
+                "file": "1_literature_review/papers/nguyenFLAMETamingBackdoors2022.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "backdoor"
+              "title": "nguyenFLAMETamingBackdoors2022"
+            }
+          },
+          {
+            "id": "bd4bb5e61deb66ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_literature_review/techniques/HDBSCAN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HDBSCAN"
+            }
+          },
+          {
+            "id": "7d88d78c3cad3782",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_literature_review/papers/nguyenFLAMETamingBackdoors2022.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nguyenFLAMETamingBackdoors2022"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,11 +221,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "f527df77430aed3b",
+  "active": "b40da0d66fae58dd",
   "lastOpenFiles": [
-    "Pasted image 20251028081505.png",
+    "1_literature_review/papers/nguyenFLAMETamingBackdoors2022.md",
+    "1_literature_review/techniques/adaptive Gaussian noise injection.md",
+    "1_literature_review/techniques/adaptive weight clipping.md",
     "1_literature_review/papers/nguyenBackdoorAttacksDefenses2023.md",
+    "1_literature_review/techniques/HDBSCAN.md",
+    "1_literature_review/techniques",
+    "1_literature_review/concepts/privacy preserving.md",
+    "1_literature_review/concepts/non-IID.md",
     "1_literature_review/concepts/backdoor.md",
+    "Pasted image 20251028081505.png",
     "Pasted image 20251028081551.png",
     "1_literature_review/concepts/Federated unlearning.md",
     "Pasted image 20251028081039.png",
@@ -209,10 +244,9 @@
     "paper_1.md",
     "1_literature_review/concepts/Robust Aggregation.md",
     "1_literature_review/concepts/Poisoning.md",
-    "1_literature_review/concepts/DP.md",
+    "1_literature_review/techniques/DP.md",
     "1_literature_review/concepts/IDS.md",
     "1_literature_review/concepts/Federated Learning.md",
-    "Untitled.md",
     "1_literature_review/literature_summary.md",
     "2_report_draft/0_introduction.md",
     "Differential Privacy.md",
@@ -225,7 +259,6 @@
     "2_design",
     "1_literature_review/papers",
     "1_literature_review/concepts",
-    "1_literature_review",
     "Welcome.md"
   ]
 }
